@@ -1,0 +1,87 @@
+.topBar {
+    padding: 15px 0 15px 0;
+    background-color: #2e2e2e;
+}
+
+.topBar .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topBar__menu{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.topBar__menu__menuLink{
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Georgia", sans-serif;
+    color: #9F9F9F;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.topBar__menu__menuLink:hover{
+    transform: scale(1.2);
+    color: #d7d7d7;
+}
+
+.topBar__socialMedia{
+    width: auto;
+    display: flex;
+}
+
+.topBar__socialMedia a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 120, 120);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.linkedin:hover{
+    background-color: #0E76A8;
+}
+
+.twitter:hover{
+    background-color: #00acee;
+}
+
+.pinterest:hover{
+    background-color: #C8232C;
+}
+
+.google-plus:hover{
+    background-color: #DB4A39;
+}
+
+.rss:hover{
+    background-color: #EE802F;
+}
+
+
+@media screen and (max-width: 780px){
+    .topBar .wrapper{
+        flex-direction: column;
+    }
+
+    .topBar__menu__menuList{
+        text-align: center;
+    }
+
+    .topBar__menu__menuLink{
+        font-size: 22px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+}

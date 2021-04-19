@@ -1,0 +1,74 @@
+.shout .wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 224, 224);
+    margin-right: 40px;
+    margin-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 28px;
+    box-sizing: border-box;
+    border-left: 10px solid #0099FF;
+}
+
+
+.shout__text__title{
+    font-size: 36px;
+    font-family: "Georgia", sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    margin-bottom: 17px;
+}
+
+.shout__text__text{
+    font-size: 18px;
+    font-family: "Georgia", sans-serif;
+    color: #333333;
+    line-height: 1.2;
+}
+
+.shout__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #0099FF;
+    width: 279px;
+    height: 58px;
+    border-radius: 10px;
+    font-size: 26px;
+    font-family: "Georgia", sans-serif;
+    color: #E6E6E6;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1180px){
+    .shout__text__title{
+        font-size: 26px;
+    }
+
+    .shout__text__text{
+        font-size: 15px;
+    }
+
+    .shout__button{
+        font-size: 22px;
+    }
+
+}
+
+
+@media screen and (max-width: 1020px){
+    .shout__text__title{
+        font-size: 20px;
+    }
+
+    .shout__text__text{
+        font-size: 12px;
+    }
+
+    .shout__button{
+        font-size: 20px;
+    }
+
+}

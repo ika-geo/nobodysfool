@@ -1,0 +1,21 @@
+.copyright {
+    background-color: #222222;
+    height: 60px;
+    border-top: 1px solid #2D2D2D;
+}
+
+.copyright .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.copyright .wrapper>div {
+    font-size: 12px;
+    font-family: "Georgia", sans-serif;
+    color: #626261;
+}
+
+
