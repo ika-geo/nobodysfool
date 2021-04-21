@@ -83,5 +83,11 @@
         margin-bottom: 10px;
         margin-right: 20px;
     }
+}
 
+
+@media screen and (max-width: 425px){
+    .topBar__menu__menuLink{
+        font-size: 20px;
+    }
 }

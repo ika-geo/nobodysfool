@@ -1,11 +1,17 @@
 footer{
     margin-top: 40px;
     padding-top: 40px;
-    padding-bottom: 40px;
     border-top: 2px solid #000000;
     background-color: #1a1a1a;
     box-sizing: border-box;
 }
+
+footer>.wrapper>div{
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+
 
 .footer__aboutUs img{
     width: 225px;
@@ -149,13 +155,7 @@ footer .wrapper{
 }
 
 
-
-
-
-
                                                 /*footer All*/
-
-
 
 
 .footer_title{
@@ -178,4 +178,44 @@ footer p{
     text-align: end;
     cursor: pointer;
 }
+
+.copyright__left{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 589px){
+    footer .wrapper{
+        flex-direction: column;
+    }
+    footer>.wrapper>div{
+        margin-right: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 425px){
+    .footer__contactUs{
+        width: 100%;
+        margin-right: auto!important;
+        margin-left: auto!important;
+        text-align: center;
+    }
+
+    .footer__contactUs__form input[type="submit"]{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
 
